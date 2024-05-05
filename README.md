@@ -1,5 +1,12 @@
-# beleg-rn
-Beleg im Modul "Rechnernetze" im dritten Semester
+# Dateitransfer
+Beleg UDP-Dateitransfer für Rechnernetze/Kommunikationssysteme von:
+Name: Clemens Dehnert
 
-# Aufgabenstellung
-Mittels Java sollte ein Protokoll zur Übertragung von Dateien zwischen verschiedenen Rechnern implementiert werden.
+
+Funktionalität:
+
+* Funktion Ihres Clients + Server ohne Fehlersimulation __OK__
+* Funktion Ihres Clients + Server mit Fehlersimulation __OK__
+* Funktion Ihres Clients + Server über Hochschulproxy 
+* Funktion Ihres Clients + Hochschulserver ohne Fehlersimulation __OK__
+* Funktion Ihres Clients + Hochschulserver mit Fehlersimulation __OK__

@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Start Server
+if [ $# -eq 2 ]
+then
+    java -cp bin:s85492/bin FileCopy $1 $2
+    exit 0
+fi
+
+# Start Client
+if [ $# -eq 4 ]
+then
+    java -cp bin:s85492/bin FileCopy $1 $2 $3 $4
+    exit 0
+fi
+
+# Start Client
+if [ $# -eq 5 ]
+then
+    java -cp bin:s85492/bin FileCopy $1 $2 $3 $4 $5
+    exit 0
+fi
+
+echo 'Error: Parameter'
+exit 1
